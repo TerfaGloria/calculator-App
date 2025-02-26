@@ -1,0 +1,89 @@
+
+      .background {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color:black;
+      }
+      
+      #btn-div {
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr) !important; /* 4 equal columns */
+        gap: 20px !important; /* Space between buttons */
+        width: 400px !important; /* Adjust to your desired width */
+        margin: auto 10px !important;
+        /* background-color: black; */
+      }
+      #solution{
+      width: 100%; 
+      padding: 20px;
+      background-color:black;
+      border: none;
+      outline: none;
+      color:white;
+      
+       
+        
+      }
+      
+      button {
+        margin-top: 20px;
+        font-size: 20px !important; /* Adjust text size */
+        font-weight: bold;
+        padding: 10px !important; /* Button padding */
+        border-radius: 200px !important; /* Rounded corners */
+        cursor: pointer;
+        background-color:rgb(73, 72, 72) !important; /* Button background color */
+        color: white; /* Button text color */
+      
+        transition: background-color 0.3s; /* Button hover effect */
+        border: none !important;
+        outline: none !important;
+      }
+      
+      button:hover {
+        background-color:rgba(128, 128, 128, 0.678) !important; /* Darker blue on hover */
+      }
+      button:nth-child(4){
+       background-color:#f1f10bd7 !important;
+
+      }
+      button:nth-child(8){
+        background-color:#f1f10bd7 !important;
+      }
+      button:nth-child(12){
+        background-color:#f1f10bd7 !important;
+      }
+      button:nth-child(16){
+        background-color:#f1f10bd7 !important;
+      }
+      button:nth-child(20){
+        background-color:#f1f10bd7 !important;
+      }
+      button:nth-child(1){
+        background-color:rgb(168, 163, 163) !important; /* Darker blue on hover */
+      }
+      button:nth-child(2){
+        background-color:rgb(168, 163, 163) !important; /* Darker blue on hover */
+      }
+      button:nth-child(3){
+        background-color:rgb(168, 163, 163) !important; /* Darker blue on hover */
+      }
+
+
+
+
+      @media (max-width: 768px) {
+
+          
+          #btn-div {
+            display: grid !important;
+            grid-template-columns: repeat(4, 1fr) !important; /* 4 equal columns */
+            gap: 20px !important; /* Space between buttons */
+            width: 350px !important; /* Adjust to your desired width */
+            margin: auto 10px !important;
+            /* background-color: black; */
+          }
+     
+        }
